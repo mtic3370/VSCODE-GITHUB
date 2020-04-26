@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bs06Alerts.html</title>
-    <link rel="stylesheet" href="./bootstrap4.4.1/css/bootstrap.css">
-    <script src="./bootstrap4.4.1/js/bootstrap.js"></script>
-    <script src="./bootstrap4.4.1/jquery/jquery-3.5.0.js"></script>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> <!-- CDN가져오기  head안에넣기 -->
 </head>
+
 <body>
-    <div class="container-fluid"> 
+    <div class="container">
+ 
         <h2>Alerts</h2>
 
         <h4>기본 Alerts - 닫기 기능이 없음</h4>
         <div class="alert alert-success">
-            <strong>Success!</strong> Indicates a successful or positive action.
-          </div>
+          <strong>Success!</strong> Indicates a successful or positive action.
+        </div>
+        
 
       <h4>Alerts-링크추가</h4>    
       <div class="alert alert-danger">
@@ -26,7 +29,7 @@
       <h4>닫기 기능 추가-애니메이션 없음</h4>
       <div class="alert alert-success alert-dismissible">
         <button type="button" class="close" data-dismiss="alert">&times;</button>
-        <strong>Success!</strong> Indicates a successful or positive action.
+        <strong>Success!</strong> This alert box could indicate a successful or positive action.
       </div>
     
       <h4>닫기+애니메이션</h4>

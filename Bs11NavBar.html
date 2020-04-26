@@ -4,57 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bs11NavBar.html</title>
-    <script src="./bootstrap4.4.1/js/bootstrap.js"></script>
-    <script src="./bootstrap4.4.1/jquery/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> <!-- CDN가져오기  head안에넣기 -->
+
 </head>
 <body>
     <div class="container">
     <!-- 네비게이션 바 제작시 스크룰에도 항상 상단에 고정되게 할때는 fixed-top클래스를 추가 -->
         <h2>기본형</h2>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">Logo</a>
-  <img src="http://www.ikosmo.co.kr/images/common/logo_center_v2.jpg" width="150px">
-  <!-- Links -->
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link 1</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link 2</a>
-    </li>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-sm bg-grey navbar-grey fixed-left">  
+      <!-- Brand -->
+  <a class="navbar-brand" href="#">
+  <img src="http://www.ikosmo.co.kr/images/common/logo_center_v2.jpg" width="100px"></a>
 
-    <!-- Dropdown -->
+
+  <!-- Navbar Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link2</a>
+      </li>
+    </ul>
+  
+  <!-- Dropdown -->
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Dropdown link
-      </a>
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Dropdown link</a>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="#">Link 1</a>
         <a class="dropdown-item" href="#">Link 2</a>
         <a class="dropdown-item" href="#">Link 3</a>
       </div>
-    </div>
     </li>
   </ul>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"></nav>
+
   <form class="form-inline" action="/action_page.php">
     <input class="form-control mr-sm-2" type="text" placeholder="Search">
     <button class="btn btn-success" type="submit">Search</button>
-</nav>
   </form>
+
 <!-- input Group을 사용해 하나의 그룹으로 표현 -->
-  <div class="input-group" style="width:300px; margin-left:20px;">
+  <div class="input-group" style="width:150px; margin-left:20px;">
     <input type="text" class="form-control" placeholder="검색">
     <div class="input-group-append">
       <button class="btn btn-success" type="submit">검색</button>
     </div>
   </div>
+</nav>
+</nav>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <h2>여기는 문서의 중간입니다.</h2>
+  <h6>여기는 문서의 중간입니다.</h6>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
